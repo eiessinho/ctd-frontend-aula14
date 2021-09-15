@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <center><img class="logo" src="https://artdocesefestas.com.br/wp-content/uploads/2019/09/cropped-Art-Doces-Festas-logo-01.png" alt="logo"></center>
+    <img class="suporte" src="https://t.ctcdn.com.br/zSSJz1B1sJJGrTCF_f58N-YLnjM=/400x400/smart/i489926.jpeg" alt="iconWhatsapp">
+
+    <section>
+        <center>
+        <h2 id="titulo">PÁGINA DE VENDAS</h2>
+        <h3 id="subtitulo">Selecione os produtos desejados.</h3>
+        </center>
+
+        <form action="/" method="GET">
+            <fieldset class="caixa">
+                <legend><strong>Selecione os sabores</strong></legend>
+                <div>
+                    <input type="checkbox" name="sabor" value="brigadeiro">Brigadeiro<br>
+                    <input type="checkbox" name="sabor" value="beijinho">Beijinho<br>
+                    <input type="checkbox" name="sabor" value="churros">Churros<br>    
+                </div>
+            </fieldset>
+
+            <fieldset class="caixa">
+                <legend><strong>Selecione o tipo da forma</strong></legend>
+                <div>
+                    <input type="radio" name="forma" value="poa">Poá<br>
+                    <input type="radio" name="forma" value="eva">Eva<br>
+                    <input type="radio" name="forma" value="papeldeseda">Papel de seda<br>
+                    <input type="radio" name="forma" value="tecido">Tecido<br>
+                    <input type="radio" name="forma" value="renda">Renda<br>
+                </div>
+            </fieldset>
+
+            <fieldset class="caixa">
+                <legend><strong>Informações de contato</strong></legend>
+                <div>
+                    <label for="nome">Nome</label>
+                    <input 
+                    type="text" 
+                    name="nome" 
+                    id="nome" 
+                    placeholder="Insira seu nome"
+                    required>
+                </div>
+
+                <div>
+                    <label for="telefone">Telefone</label>
+                    <input 
+                    type="tel" 
+                    name="telefone" 
+                    id="telefone" 
+                    placeholder="(00) 0000-0000"
+                    required>
+                </div>
+
+                <div>
+                    <label for="endereco">Endereço</label><br>
+                    <textarea
+                    name="endereco"
+                    id="endereco"
+                    cols="35"
+                    rows="5"
+                    required></textarea>
+            </fieldset>
+
+            <center>
+            <button class="button" type="reset">Apagar</button>
+            <button class="button" type="submit">Enviar</button>
+            </center>
+    </section>
+    
+</body>
+</html>
